@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterCodeFirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <EditText
+         android:textColor="@android:color/white"
+         android:textColorHint="#767474"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:hint="Введите бонусный код"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="175dp" />
+
+
+     <Button
+         android:alpha="0.7"
+         android:background="#479637"
+         android:text="Отправить"
+         android:layout_width="156dp"
+         android:textColor="#FFFFFF"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="50dp" />
+ </LinearLayout>
+
+</FrameLayout>

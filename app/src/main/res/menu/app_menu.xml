@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_menu"
+            android:title="Mеню" />
+        <item
+            android:id="@+id/nav_sobitiya"
+            android:title="События" />
+        <item
+            android:id="@+id/nav_onas"
+            android:title="О нас" />
+        <item
+            android:id="@+id/nav_kontakti"
+            android:title="Контакты" />
+        <item
+            android:id="@+id/nav_vxod"
+            android:title="Вход" />
+    </group>
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_camera4"
+            android:title="" />
+        <item
+            android:id="@+id/nav_kod"
+            android:title="Ввести код" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:title="Рестораны" />
+        <item
+            android:id="@+id/nav_use_bonus"
+            android:title="Использовать бонусы" />
+        <item
+            android:id="@+id/about_bonus"
+            android:title="О бонусной программе"/>
+
+    </group>
+</menu>
